@@ -3,6 +3,10 @@
     padding-right: 2rem;
 }
 
+.p-2{
+    padding: 1rem;
+}
+
 .p-4{
     padding: 2rem;
 }
@@ -11,10 +15,30 @@
     width: fit-content;
 }
 
+.h-96{
+    height: 24rem;
+}
+
+.w-96{
+    width: 24rem;
+}
+
+.h-fit{
+    height: fit-content;
+}
+
+.h-full{
+    height: 100%;
+}
+
 .my-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1rem;
+}
+
+.g-1{
+    gap: 0.5rem;
 }
 
 .g-4{

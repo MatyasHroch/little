@@ -1,29 +1,27 @@
-const places = ["Jezero Bled", "Jezero Bohinj"];
-
 export default {
   main: {
     place_list: [
       {
-        name: places[1],
+        name: "Jezero Bohinj",
         description: "",
         route: {
-          name: places[1] + " - autem",
+          name: "Jezero Bohinj - cesta autem tam",
           duration: "1 hodina 30 minut",
           distance: "80 km",
           map_src: "https://frame.mapy.cz/s/jukadecojo",
         },
         route_list: [
           {
-            name: places[1] + " - mírná trasa",
-            duration: "1 hodina 30 minut",
-            distance: "10 km",
-            map_src: "https://frame.mapy.cz/s/jukadecojo",
+            name: "Jezero Bohinj - střední cesta",
+            duration: "4 hodiny 45 minut",
+            distance: "12,8 km",
+            map_src: "https://frame.mapy.cz/s/dadoforafa",
           },
           {
-            name: places[1] + " - střední cesta",
-            duration: "2 hodiny 30 minut",
-            distance: "10 km",
-            map_src: "https://frame.mapy.cz/s/jukadecojo",
+            name: "Jezero Bohinj - mírná trasa",
+            duration: "6 hodin 30 minut",
+            distance: "17 km",
+            map_src: "https://frame.mapy.cz/s/gutonaduje",
           },
         ],
       },
