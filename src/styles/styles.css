@@ -94,7 +94,7 @@ section {
 .my-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .g-1 {
@@ -126,6 +126,12 @@ section {
 
 .border {
     border: 1px solid black;
+}
+
+@media screen and (max-width: 1506px) {
+    .grow-2 {
+        grid-column: span 1;
+    }
 }
 
 @media screen and (max-width: 768px) {
