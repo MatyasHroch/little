@@ -14,9 +14,14 @@ h1 {
     text-align: center;
 }
 
+p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
 iframe {
     filter: grayscale(100%);
-    max-width: 100%;
+    width: 100%;
     border-radius: 2rem;
     height: 15rem;
 }
@@ -126,5 +131,13 @@ section {
 @media screen and (max-width: 768px) {
     .flex-row {
         display: block
+    }
+
+    .my-grid {
+        grid-template-columns: 1fr;
+    }
+
+    iframe {
+        width: 100%
     }
 }
