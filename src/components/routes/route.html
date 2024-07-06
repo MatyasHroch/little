@@ -1,5 +1,10 @@
-<article class="flex-col p-2 g-1 rounded border h-96">
-  <h3 class="w-fit">{name}</h3>
-  <span>{duration} - {distance}</span>
-  <iframe class="rounded h-full" src="{map_src}" frameborder="0"></iframe>
+<article class="fit">
+  <div class="w-full flex-row space-between fit align-center">
+    <h3 class="fit">{name}</h3>
+    <div class="flex-col fit">
+      <span> <i class="fa-regular fa-clock"></i> {duration}</span>
+      <span> <i class="fa-solid fa-signs-post"></i> {distance}</span>
+    </div>
+  </div>
+  <iframe src="{map_src}" frameborder="0"></iframe>
 </article>

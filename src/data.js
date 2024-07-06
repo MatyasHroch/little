@@ -3,23 +3,23 @@ export default {
     place_list: [
       {
         name: "Jezero Bohinj",
-        description: "",
+        description: "nejak super popisu jezero",
         route: {
-          name: "Jezero Bohinj - cesta autem tam",
-          duration: "1 hodina 30 minut",
+          name: "cesta autem tam",
+          duration: "1 hod 30 min",
           distance: "80 km",
-          map_src: "https://frame.mapy.cz/s/jukadecojo",
+          map_src: "https://frame.mapy.cz/s/nehafojoku",
         },
         route_list: [
           {
-            name: "Jezero Bohinj - střední cesta",
-            duration: "4 hodiny 45 minut",
+            name: "střední cesta",
+            duration: "4 hod 45 min",
             distance: "12,8 km",
             map_src: "https://frame.mapy.cz/s/dadoforafa",
           },
           {
-            name: "Jezero Bohinj - mírná trasa",
-            duration: "6 hodin 30 minut",
+            name: "mírná trasa",
+            duration: "6 hod 30 min",
             distance: "17 km",
             map_src: "https://frame.mapy.cz/s/gutonaduje",
           },
