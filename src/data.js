@@ -30,6 +30,12 @@ export default {
             distance: "17 km",
             map_src: "https://frame.mapy.cz/s/gutonaduje",
           },
+          {
+            name: "Severní strana jezera",
+            duration: "2 hod 4 min",
+            distance: "7,3 km",
+            map_src: "https://frame.mapy.cz/s/gazulofape",
+          },
         ],
       },
       {
