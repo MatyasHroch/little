@@ -32,6 +32,17 @@ export default {
           },
         ],
       },
+      {
+        name: "Velký roadtrip za vodopády",
+        description: "Velika korita Soče, Peričnik, Boka, Šunik",
+        route: {
+          name: "Cesta autem na několik míst",
+          duration: "4 hod 04 min",
+          distance: "229,6 km",
+          map_src: "https://frame.mapy.cz/s/gazanagubo",
+        },
+        route_list: [],
+      },
     ],
   },
 };
